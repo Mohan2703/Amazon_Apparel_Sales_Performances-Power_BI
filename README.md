@@ -21,7 +21,7 @@
 ## Project Planning using Star Method
 <details>
 <summary>
-<b>View Stratergy ➡️</b>
+<i><b>View Stratergy ➡️</b></i>
 </summary><br>
 
 - Understand key KPIs: Overall Sales, Units, Seller Count
@@ -51,9 +51,9 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 
 
 ## Data Source
-- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/)
-- Imported raw Amazon.xlsx dataset
-- Imported raw amazon-fashion.csv dataset
+>- Imported raw Amazon.xlsx dataset
+>- Imported raw amazon-fashion.csv dataset
+>- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/)
 
 ## Data Preprocessing & ETL
 **Our data is initially import from the Excel/CSV file into Power BI, and then the subsequent Extract, Transform, and Load (ETL) is executed in Power Query**
@@ -74,10 +74,10 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
   Month = FORMAT(Amazon[Date], "mmm")
   ```
 
-
 ## Data Modelling
 <img width="700" height="400" alt="Image" src="https://github.com/user-attachments/assets/d9cac1b5-b15b-4e81-be20-e636134bbecd" /> <br>
-The Data Model illustrates the correlation between various tables and designed in Power BI to connect transactional and reference data for better analysis:
+The Data Model illustrates the correlation between various tables and designed in Power BI to <br> 
+connect transactional and reference data for better analysis:
 
 - Tables Used:
   - Amazon Sale Report → core sales, units, pricing, and transactional details
@@ -94,7 +94,6 @@ The Data Model illustrates the correlation between various tables and designed i
   - Sales_Amount, Sales_Units, Reviews
 
 - Derived Columns:
-
   - Month = FORMAT(Amazon[Date], "mmm")
   - Category (concatenated split categories for better grouping)
 
@@ -102,7 +101,7 @@ The Data Model illustrates the correlation between various tables and designed i
 ## Data Analysis
 <details>
 <summary>
-Power BI: View Created Dax Measures & Columns ➡️
+<i><b>Power BI: View Created Dax Measures & Columns ➡️</b></i>
 </summary><br>
 
 **Measures:**
@@ -162,7 +161,7 @@ return IF(val=BLANK(),"0",val)
 ## Dashboard
 <details>
 <summary>
-View Images ➡️
+<i><b>View Images ➡️</b></i>
 </summary>
 
 > ### 1. OverView
@@ -185,7 +184,7 @@ View Images ➡️
 - Clear seasonal trend → peaks around mid-May, dip in June.
 
 ## Tools And Softwares
-- Power BI → data modeling & dashboard creation
-- DAX → calculated measures ( sales, units, seller count, reviews and ... )
-- Excel/CSV → dataset handling
-- Icons/Images → used for product visuals
+- **Power BI** → data modeling & dashboard creation
+- **DAX** → calculated measures ( sales, units, seller count, reviews and ... )
+- **Excel/CSV** → dataset handling
+- **Icons/Images** → used for product visuals
