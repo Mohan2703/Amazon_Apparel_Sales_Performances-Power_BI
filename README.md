@@ -2,7 +2,7 @@
 
 [![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
 
-## 📑 Table of Contents
+## Table of Contents
   - [Problem Statement](#problem-statement)
   - [Project Planning using Star Method](#project-planning-using-star-method)
   - [Data Source](#data-source)
@@ -13,17 +13,10 @@
   - [Findings](#findings)
   - [Tools, Software and Libraries](#tools-software-and-libraries)
 
-
 ## Problem Statement
-<details>
-<summary>
-View Statement ⬇️
-</summary><br>
 
-**The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.**
-- **The problem: How can we track sales performance, seller activity, and product-level insights to improve decision-making in the apparel category?**
-
-</details>
+- **The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.**
+- **The problem : How can we track sales performance, seller activity, and product-level insights to improve decision-making in the apparel category?**
 
 
 ## Project Planning using Star Method
@@ -256,7 +249,7 @@ View tools ⬇️
 </summary> <br>
 
 - Power BI → data modeling & dashboard creation
-- DAX → calculated measures (sales, units, seller count, reviews and ...)
+- DAX → calculated measures ( sales, units, seller count, reviews and ... )
 - Excel/CSV → dataset handling
 - Icons/Images → used for product visuals
 
