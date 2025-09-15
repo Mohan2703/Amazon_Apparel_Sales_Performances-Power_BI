@@ -14,8 +14,8 @@
   9. [Tools and Softwares](#tools-and-softwares)
 
 ## Problem Statement
-- **The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.**
-- **The problem : How can we track sales performance, seller activity, and product-level insights to improve decision-making in the apparel category?**
+- The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.
+- The problem : How can we track sales performance, seller activity, and product-level insights to improve decision-making in the apparel category?
 
 
 ## Project Planning using Star Method
