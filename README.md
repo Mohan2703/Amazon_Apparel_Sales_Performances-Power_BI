@@ -21,7 +21,7 @@
 ## Project Planning using Star Method
 <details>
 <summary>
-View Stratergy ➡️
+<b>View Stratergy ➡️</b>
 </summary><br>
 
 - Understand key KPIs: Overall Sales, Units, Seller Count
@@ -51,9 +51,9 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 
 
 ## Data Source
->- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/) 
->- Imported raw Amazon.xlsx 
->- Imported raw amazon-fashion.csv 
+- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/)
+- Imported raw Amazon.xlsx dataset
+- Imported raw amazon-fashion.csv dataset
 
 ## Data Preprocessing & ETL
 **Our data is initially import from the Excel/CSV file into Power BI, and then the subsequent Extract, Transform, and Load (ETL) is executed in Power Query**
@@ -166,13 +166,13 @@ View Images ➡️
 </summary>
 
 > ### 1. OverView
-> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9" target="_blank"> <img width="1286" height="733" alt="Image" src="https://github.com/user-attachments/assets/9bb51257-c8cc-4784-b4e8-9442103f0c96" /> </a>
+> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9" target="_blank"> <img width="650" height="420" alt="Image" src="https://github.com/user-attachments/assets/9bb51257-c8cc-4784-b4e8-9442103f0c96" /> </a>
 
 > ### 2. Products
-> <img width="1278" height="732" alt="Image" src="https://github.com/user-attachments/assets/7e19ada0-3cde-49f7-a352-119cacda5eaa" />
+> <img width="650" height="420" alt="Image" src="https://github.com/user-attachments/assets/7e19ada0-3cde-49f7-a352-119cacda5eaa" />
 
 > ### 3. Products View
-> <img width="1291" height="736" alt="Image" src="https://github.com/user-attachments/assets/90254f0e-44d7-4d1a-9e17-7130f9ff4d1f" />
+> <img width="650" height="420" alt="Image" src="https://github.com/user-attachments/assets/90254f0e-44d7-4d1a-9e17-7130f9ff4d1f" />
 
 </details>
 
