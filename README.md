@@ -1,17 +1,17 @@
-# 🛒 Amazon Apparel Sales Performances
-
+# 🛒 Amazon Apparel Sales Performances - Power BI
+using PowerBI
 [![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
 
 ## Table of Contents
-  - [Problem Statement](#problem-statement)
-  - [Project Planning using Star Method](#project-planning-using-star-method)
-  - [Data Source](#data-source)
-  - [Data Preprocessing \& ETL](#data-preprocessing--etl)
-  - [Data Modelling](#data-modelling)
-  - [Data Analysis](#data-analysis)
-  - [Dashboard](#dashboard)
-  - [Findings](#findings)
-  - [Tools, Software and Libraries](#tools-software-and-libraries)
+  - [1. Problem Statement](#problem-statement)
+  - [2. Project Planning using Star Method](#project-planning-using-star-method)
+  - [3. Data Source](#data-source)
+  - [4. Data Preprocessing \& ETL](#data-preprocessing--etl)
+  - [5. Data Modelling](#data-modelling)
+  - [6. Data Analysis](#data-analysis)
+  - [7. Dashboard](#dashboard)
+  - [8. Findings](#findings)
+  - [9. Tools and Softwares](#tools-and-softwares)
 
 ## Problem Statement
 - **The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.**
@@ -109,7 +109,6 @@ The Data Model illustrates the correlation between various tables and designed i
 Power BI: View Created Dax Measures & Columns ➡️
 </summary><br>
 
-DAX Measures Used In DashBoard:
 1. Return_Units 
 ```
 = var val= CALCULATE([Sale_Units],CONTAINSSTRING(Amazon[Status],"Return"))
@@ -136,20 +135,12 @@ var _sale = SUM(Amazon[Total_Ammount])
 return IF(selecting="1",_sale,_units)
 ```
 
-5. Sale_Units 
-```
-= var selecting = SELECTEDVALUE(Sale_Option[Type])
-var _units =SUM(Amazon[Qty])
-var _sale = SUM(Amazon[Total_Ammount])
-return IF(selecting="1",_sale,_units)
-```
-
-6. All_Sale 
+5. All_Sale 
 ```
 = CALCULATE([Sale_Units],ALL('amazon-fashion'[Category]))
 ```
 
-7. Order_Counts 
+6. Order_Counts 
 ```
 = var val = CALCULATE(COUNT('amazon-fashion'[seller_id]),CONTAINSSTRING(Amazon[Status],"Delivered"))
 return IF(val=BLANK(),"0",val)
@@ -197,7 +188,7 @@ View Images ➡️
 - Product-level drillthrough revealed stock-outs and low-rated SKUs (e.g., socks with 2.9 rating, 900 sales amount).
 - Clear seasonal trend → peaks around mid-May, dip in June.
 
-## Tools, Software and Libraries
+## Tools And Softwares
 - Power BI → data modeling & dashboard creation
 - DAX → calculated measures ( sales, units, seller count, reviews and ... )
 - Excel/CSV → dataset handling
