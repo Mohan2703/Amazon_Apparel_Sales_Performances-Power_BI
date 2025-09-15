@@ -1,17 +1,17 @@
 # 🛒 Amazon Apparel Sales Performances - Power BI
-using PowerBI
+
 [![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
 
 ## Table of Contents
-  - [1. Problem Statement](#problem-statement)
-  - [2. Project Planning using Star Method](#project-planning-using-star-method)
-  - [3. Data Source](#data-source)
-  - [4. Data Preprocessing \& ETL](#data-preprocessing--etl)
-  - [5. Data Modelling](#data-modelling)
-  - [6. Data Analysis](#data-analysis)
-  - [7. Dashboard](#dashboard)
-  - [8. Findings](#findings)
-  - [9. Tools and Softwares](#tools-and-softwares)
+  1. [Problem Statement](#problem-statement)
+  2. [Project Planning using Star Method](#project-planning-using-star-method)
+  3. [Data Source](#data-source)
+  4. [Data Preprocessing \& ETL](#data-preprocessing--etl)
+  5. [Data Modelling](#data-modelling)
+  6. [Data Analysis](#data-analysis)
+  7. [Dashboard](#dashboard)
+  8. [Findings](#findings)
+  9. [Tools and Softwares](#tools-and-softwares)
 
 ## Problem Statement
 - **The fashion segment on Amazon generates massive amounts of sales and unit-level data across multiple cities and states in India. However, this data is scattered and difficult for stakeholders to interpret quickly.**
@@ -51,10 +51,9 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 
 
 ## Data Source
-- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/) 
-- Imported raw Amazon.xlsx 
-- Imported raw amazon-fashion.csv 
-
+>- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/) 
+>- Imported raw Amazon.xlsx 
+>- Imported raw amazon-fashion.csv 
 
 ## Data Preprocessing & ETL
 **Our data is initially import from the Excel/CSV file into Power BI, and then the subsequent Extract, Transform, and Load (ETL) is executed in Power Query**
@@ -81,17 +80,14 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 The Data Model illustrates the correlation between various tables and designed in Power BI to connect transactional and reference data for better analysis:
 
 - Tables Used:
-
   - Amazon Sale Report → core sales, units, pricing, and transactional details
   - amazon-fashion → product metadata (reviews, categories, images, etc.)
 
 - Relationship Setup:
-
   - Established a **many-to-many** relationship between the two tables using the **ASIN** column as the primary key in both tables.
   - This ensured that each product could be mapped across multiple sales records while preserving product-level attributes from the reference table.
 
 - Key Measures Defined:
-
   - Over_all_sales → aggregated sales across all categories
   - Seller_count → total sellers with delivered orders
   - Filter_Sale → dynamic toggle between sales and units
@@ -109,6 +105,7 @@ The Data Model illustrates the correlation between various tables and designed i
 Power BI: View Created Dax Measures & Columns ➡️
 </summary><br>
 
+**Measures:**
 1. Return_Units 
 ```
 = var val= CALCULATE([Sale_Units],CONTAINSSTRING(Amazon[Status],"Return"))
@@ -146,14 +143,14 @@ return IF(selecting="1",_sale,_units)
 return IF(val=BLANK(),"0",val)
 ```
 
-Calculated Column used:
+**Calculated Columns:**
 
 1. Month 
 ```
 1.	month = FORMAT(Amazon[Date],"mmm")
 ```
 
-Table Implemented: 
+**Tables Created:**
 
 1. Sale_Option 
 ```
@@ -169,17 +166,16 @@ View Images ➡️
 </summary>
 
 > ### 1. OverView
-> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9" target="_blank"> <img width="1286" height="733" alt="Image" src="https://github.com/user-attachments/assets/9bb51257-c8cc-4784-b4e8-9442103f0c96" />
-</a>
+> <a href="https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9" target="_blank"> <img width="1286" height="733" alt="Image" src="https://github.com/user-attachments/assets/9bb51257-c8cc-4784-b4e8-9442103f0c96" /> </a>
 
 > ### 2. Products
 > <img width="1278" height="732" alt="Image" src="https://github.com/user-attachments/assets/7e19ada0-3cde-49f7-a352-119cacda5eaa" />
-
 
 > ### 3. Products View
 > <img width="1291" height="736" alt="Image" src="https://github.com/user-attachments/assets/90254f0e-44d7-4d1a-9e17-7130f9ff4d1f" />
 
 </details>
+
 
 ## Findings
 - Top City: Bengaluru (8.2M sales, 10.9K units)
