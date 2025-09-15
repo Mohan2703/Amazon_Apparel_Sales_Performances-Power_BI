@@ -22,7 +22,7 @@
 ## Project Planning using Star Method
 <details>
 <summary>
-<i><b>View Stratergy ➡️</b></i>
+$\textsf{\color{blue}{View Stratergy ➡️}}$
 </summary><br>
 
 - Understand key KPIs: Overall Sales, Units, Seller Count
@@ -54,7 +54,7 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 ## Data Source
 >- Imported raw Amazon.xlsx dataset
 >- Imported raw amazon-fashion.csv dataset
->- Web Scrapping using Python from [Amazon.in](https://www.amazon.in/)
+>- Web Scrapping using Python from Amazon.in
 
 ## Data Preprocessing & ETL
 **Our data is initially import from the Excel/CSV file into Power BI, and then the subsequent Extract, Transform, and Load (ETL) is executed in Power Query**
@@ -102,7 +102,7 @@ connect transactional and reference data for better analysis:
 ## Data Analysis
 <details>
 <summary>
-<i><b>Power BI: View Created Dax Measures & Columns ➡️</b></i>
+$\textsf{\color{blue}{Power BI: View Created Dax Measures, Columns, Tables ➡️}}$
 </summary><br>
 
 **Measures:**
@@ -162,7 +162,7 @@ return IF(val=BLANK(),"0",val)
 ## Dashboard
 <details>
 <summary>
-<i><b>View Images ➡️</b></i>
+$\textsf{\color{blue}{View Images ➡️}}$
 </summary>
 
 > ### 1. OverView
