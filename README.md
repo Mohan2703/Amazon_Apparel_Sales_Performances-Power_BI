@@ -1,4 +1,5 @@
-# 🛒 Amazon Apparel Sales Performances - Power BI
+[![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=plastic&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://www.datascienceportfol.io/mohan_Srinivas/projects/4)
+# 🛒 Amazon Apparel Sales Performances - Power BI 
 
 [![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
 
