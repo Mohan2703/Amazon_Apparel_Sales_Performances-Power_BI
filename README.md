@@ -9,7 +9,7 @@
   4. [Data Preprocessing \& ETL](#data-preprocessing--etl)
   5. [Data Modelling](#data-modelling)
   6. [Data Analysis](#data-analysis)
-  7. [Dashboard](#dashboard)
+  7. [Dashboard Images](#dashboard)
   8. [Findings](#findings)
   9. [Tools and Softwares](#tools-and-softwares)
 
