@@ -1,7 +1,7 @@
-[![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=plastic&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://www.datascienceportfol.io/mohan_Srinivas/projects/4)
 # 🛒 Amazon Apparel Sales Performances - Power BI 
 
-[![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
+[![View Dashboard](https://img.shields.io/badge/View%20Dashboard-%23FFB900.svg?style=for-the-badge&logo=power-bi&logoColor=%23000000&labelColor=%23FFB900)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
+[![View Portfolio](https://img.shields.io/badge/View%20Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://www.datascienceportfol.io/mohan_Srinivas/projects/4) 
 
 ## Table of Contents
   1. [Problem Statement](#problem-statement)
