@@ -3,18 +3,18 @@
 [![View Dashboard ](https://img.shields.io/badge/View%20Dashboard-Click%20Here-black?style=for-the-badge&logo=powerbi&logoColor=yellow&labelColor=yellow)](https://app.powerbi.com/view?r=eyJrIjoiNTc4MTc1ZWQtNTU4NC00NGY3LTg5NTQtNzhlNmQ5MDI3MTQwIiwidCI6IjM3MzhkYjE5LTA4MzUtNDhmZS05MjhiLWMxZjI3ZmNkN2Y2NCJ9)
 
 ## 📑 Table of Contents
-  - [📌 Problem Statement](#-problem-statement)
-  - [⭐ Project Planning using Star Method](#-project-planning-using-star-method)
-  - [📂 Data Source](#-data-source)
-  - [🔄 Data Preprocessing \& ETL](#-data-preprocessing--etl)
-  - [🗄️ Data Modelling](#️-data-modelling)
-  - [📊 Data Analysis](#-data-analysis)
-  - [📈 Dashboard](#-dashboard)
-  - [❓Findings](#findings)
-  - [⚙️ Tools, Software and Libraries](#️-tools-software-and-libraries)
+  - [Problem Statement](#problem-statement)
+  - [Project Planning using Star Method](#project-planning-using-star-method)
+  - [Data Source](#data-source)
+  - [Data Preprocessing \& ETL](#data-preprocessing--etl)
+  - [Data Modelling](#data-modelling)
+  - [Data Analysis](#data-analysis)
+  - [Dashboard](#dashboard)
+  - [Findings](#findings)
+  - [Tools, Software and Libraries](#tools-software-and-libraries)
 
 
-## 📌 Problem Statement
+## Problem Statement
 <details>
 <summary>
 View Statement ⬇️
@@ -26,7 +26,7 @@ View Statement ⬇️
 </details>
 
 
-## ⭐ Project Planning using Star Method
+## Project Planning using Star Method
 <details>
 
 <summary>
@@ -63,7 +63,7 @@ I collected raw Amazon Fashion sales data, cleaned and formatted it, and created
 </details>
 
 
-## 📂 Data Source
+## Data Source
 <details>
 <summary>
 View Source ⬇️
@@ -76,7 +76,7 @@ View Source ⬇️
 </details>
 
 
-## 🔄 Data Preprocessing & ETL
+## Data Preprocessing & ETL
 <details>
 <summary>
 View ETL Process ⬇️
@@ -109,7 +109,7 @@ View ETL Process ⬇️
 </details>
 
 
-## 🗄️ Data Modelling
+## Data Modelling
 <details>
 <summary>
 View Modeling ⬇️
@@ -147,7 +147,7 @@ The data model was designed in Power BI to connect transactional and reference d
 </details>
 
 
-## 📊 Data Analysis
+## Data Analysis
 <details>
 <summary>
 View Analysis ⬇️
@@ -215,7 +215,7 @@ Table Implemented:
 
 </details>
 
-## 📈 Dashboard
+## Dashboard
 <details>
 <summary>
 View Images ⬇️
@@ -234,7 +234,7 @@ View Images ⬇️
 
 </details>
 
-## ❓Findings
+## Findings
 <details>
 <summary> 
 View Findings ⬇️
@@ -249,7 +249,7 @@ View Findings ⬇️
 </details>
 
 
-## ⚙️ Tools, Software and Libraries
+## Tools, Software and Libraries
 <details>
 <summary> 
 View tools ⬇️
